@@ -1,10 +1,22 @@
 import './App.css';
 import { TextArea } from './Components/TextArea';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 function App() {
   const [text, setText] = useState('');
   const [textTranslated, setTextTranslated] = useState('');
+
+  // useEffect(() => {
+  //   fetch('/ai')
+  //       .then(res => res.json())
+  //       .then(data => setTextTranslated(data.translation))
+  // }, )
+
+  const callAPI = () => {
+    fetch(`/ai/${text}`)
+    .then(res => res.json())
+    .then(data => setTextTranslated(data.translation))
+  }
 
   const changeHandler = (e) => {
     setText(e.target.value);
@@ -40,7 +52,7 @@ function App() {
             </li>
           </ul>
         </div>
-        <button onClick={clickHandler}>Translate Text</button>
+        <button onClick={callAPI}>Translate Text</button>
     </div>
     </div>
   );
