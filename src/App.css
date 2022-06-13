@@ -1,12 +1,57 @@
 .App {
   text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: 100vh;
   background-color: #fab22b;
 }
+
+.header{
+  height: 50px;
+  width: 100vw;
+  text-align: left;
+  position: relative;
+}
+
+.loopText{
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  z-index: 2;
+}
+
+@media only screen and (max-height: 2985px){
+  .loopText{
+    top: 5%;
+  }
+  .txt {
+    font-size: 20px;
+  }
+}
+
+.txt {
+  white-space: nowrap;
+  font-size: 30px;
+  animation: scrollTxt 4s linear infinite;
+}
+
+@keyframes scrollTxt {
+  0%{
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+
 
 .container{
   width: 60%;
@@ -73,6 +118,7 @@ body{
 .controls{
   list-style: none;
   padding: 12px 15px;
+  border-bottom: 1px solid #ccc;
 }
 .controls .row .icons{
   width: 38%;

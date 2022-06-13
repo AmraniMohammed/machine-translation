@@ -28,7 +28,7 @@ def getValueDyn(text):
     input_text = tf.constant([
     text,
     ])
-    reloaded = tf.saved_model.load('./translator5')
+    reloaded = tf.saved_model.load('./translator100-22') #Thanks. / Be calm. / Join us./ That's not my opinion. / They can speak French. / Help me. / Why's it so hot in here? / Think outside the box. / This is how I made it.
     result = reloaded.tf_translate(input_text)
     for tr in result['text']:
         textTrans = tr.numpy().decode()

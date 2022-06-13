@@ -1,0 +1,36 @@
+.header{
+    background: #232323;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.headerNavCenter{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.headerNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    height: 60px;
+    width: 95%;
+    background: transparent;
+    z-index: 5;
+}
+
+/*.logo{
+  max-width: 60px;
+  padding: 10px;
+  margin: 15px 10px;
+}*/
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
