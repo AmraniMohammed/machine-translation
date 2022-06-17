@@ -44,7 +44,7 @@ In this project, I tried to create an API for machine translation by using Tenso
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap this project.
+You can find here the frameworks/libraries used to bootstrap this project.
 
 * [React.js](https://reactjs.org/)
 * [Flask](https://flask.palletsprojects.com/en/2.1.x/)
