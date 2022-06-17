@@ -6,7 +6,7 @@
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-color: #fab22b;
+  background-color: #1abc9c;
 }
 
 .header{
@@ -74,7 +74,7 @@ body{
   justify-content: center;
   padding: 0 10px;
   min-height: 100vh;
-  background: #e67e22;
+  background: #1abc9c;
 }
 .container{
   max-width: 690px;
@@ -185,7 +185,7 @@ body{
   margin-top: 20px;
   font-size: 17px;
   border-radius: 5px;
-  background: #e67e22;
+  background: #1abc9c;
 }
 
 @media (max-width: 660px){
