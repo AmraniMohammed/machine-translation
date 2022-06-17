@@ -27,7 +27,6 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -61,28 +60,36 @@ How to use this project?
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+You need first to install the dependencies in requirements.txt
+* pip
   ```sh
-  npm install npm@latest -g
+  pip install -r requirements.txt
   ```
 
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get to [the project repo](https://github.com/AmraniMohammed/machine-translation)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/AmraniMohammed/machine-translation
    ```
-3. Install NPM packages
+3. You need first to install the dependencies in requirements.txt
+   ```sh
+   pip install -r requirements.txt
+   ```
+4. Install react dependencies
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+5. Run this command in your terminal to start the app
+   ```sh
+   npm start
+   ```
+6. In a new terminal run this command to start the API
+   ```sh
+   npm run start-api
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
