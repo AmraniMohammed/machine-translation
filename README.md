@@ -58,19 +58,11 @@ This section should list any major frameworks/libraries used to bootstrap this p
 
 How to use this project?
 
-### Prerequisites
-
-You need first to install the dependencies in requirements.txt
-* pip
-  ```sh
-  pip install -r requirements.txt
-  ```
-
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get to [the project repo](https://github.com/AmraniMohammed/machine-translation)
+1. Go to [the project repo](https://github.com/AmraniMohammed/machine-translation)
 2. Clone the repo
    ```sh
    git clone https://github.com/AmraniMohammed/machine-translation
@@ -91,5 +83,15 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    npm run start-api
    ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- CONTACT -->
+## Contact
+
+Your Name - [@linkedin](https://www.linkedin.com/in/mohammed-amrani-alaoui/) - email@example.com
+
+Project Link: [https://github.com/AmraniMohammed/machine-translation#top](https://github.com/AmraniMohammed/machine-translation#top)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
