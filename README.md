@@ -90,7 +90,7 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@linkedin](https://www.linkedin.com/in/mohammed-amrani-alaoui/) - email@example.com
+AMRANI ALAOUI Mohammed - [@linkedin](https://www.linkedin.com/in/mohammed-amrani-alaoui/) - mrani.med98@gmail.com
 
 Project Link: [https://github.com/AmraniMohammed/machine-translation#top](https://github.com/AmraniMohammed/machine-translation#top)
 
