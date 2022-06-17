@@ -60,7 +60,7 @@ How to use this project?
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Below you can find the instructions for installing and setting up your app._
 
 1. Go to [the project repo](https://github.com/AmraniMohammed/machine-translation)
 2. Clone the repo
