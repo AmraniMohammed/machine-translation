@@ -10,7 +10,7 @@
   <h3 align="center">Translation API</h3>
 
   <p align="center">
-    Open source API for machine translation
+    Open source API for machine translation from English to french
   </p>
 </div>
 
