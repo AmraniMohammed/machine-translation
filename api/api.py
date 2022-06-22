@@ -5,20 +5,6 @@ import tensorflow_text
 app = Flask(__name__)
 
 
-
-# input_text = tf.constant([
-#     'Go.',
-# ])
-
-# reloaded = tf.saved_model.load('./translator5')
-
-
-# result = reloaded.tf_translate(three_input_text)
-
-# for tr in result['text']:
-#   print(tr.numpy().decode())
-
-
 @app.route('/ai')
 def getValue():
     return {'translation': "Happy french"}
@@ -37,3 +23,6 @@ def getValueDyn(text):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
+#Thanks. / Be calm. / Join us./ That's not my opinion. / They can speak French. / Help me. / Why's it so hot in here? / Think outside the box. / This is how I made it.

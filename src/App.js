@@ -1,7 +1,5 @@
 import './App.css';
-// import { Header } from './Components/Header';
-import { useState, useEffect } from 'react';
-import { Loader } from './Components/Loader';
+import { useState } from 'react';
 
 
 function App() {
@@ -9,11 +7,6 @@ function App() {
   const [textTranslated, setTextTranslated] = useState(null);
   const [isloading, setIsloading] = useState(false);
 
-  // useEffect(() => {
-  //   fetch('/ai')
-  //       .then(res => res.json())
-  //       .then(data => setTextTranslated(data.translation))
-  // }, )
 
   const callAPI = () => {
     setIsloading(true);
